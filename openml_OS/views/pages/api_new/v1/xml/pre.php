@@ -281,6 +281,7 @@ $this->apiErrors[513] = 'Too many results';
 $this->apiErrors[514] = 'Illegal filter specified';
 $this->apiErrors[515] = 'Can not specify offset without limit';
 $this->apiErrors[516] = 'Requested result limit too high. ';
+$this->apiErrors[517] = 'Problem with the study filter. The study should exists, be run-based and non-legacy';
 
 // openml.estimationprocedure.list
 $this->apiErrors[520] = 'No results';
@@ -300,6 +301,9 @@ $this->apiErrors[549] = 'If set, sort should be set to either "asc" or "desc"';
 // openml.flow.forcedelete
 $this->apiErrors[550] = 'Admin rights are required.';
 $this->apiErrors[551] = 'Delete query failed.';
+
+// openml.evaluations.list [continued]
+$this->apiErrors[555] = 'Problem with the study filter. The study should exists, be run-based and non-legacy';
 
 // openml.run.trace.upload
 $this->apiErrors[561] = 'Problem with uploaded trace file.';
@@ -504,5 +508,22 @@ $this->apiErrors[1051] = 'Not legal status to update to';
 $this->apiErrors[1052] = 'Could not find study';
 $this->apiErrors[1053] = 'Study not owned by you';
 $this->apiErrors[1054] = 'Problem inserting in database';
+
+
+//openml.data.edit
+$this->apiErrors[1060] = 'Problem validating edit_parameters xml';
+$this->apiErrors[1061] = 'Please provide edit_parameters xml';
+$this->apiErrors[1062] = 'Data ID is required';
+$this->apiErrors[1063] = 'Unknown dataset';
+$this->apiErrors[1064] = 'Please provide atleast one field among description, creator, contributor, collection_date, language, citation, original_data_url, default_target_attribute, row_id_attribute, ignore_attribute or paper_url to edit. ';
+$this->apiErrors[1065] = 'Critical features default_target_attribute, row_id_attribute and ignore_attribute can be edited only by the owner. Fork the dataset if changes are required.';
+$this->apiErrors[1066] = 'Critical features default_target_attribute, row_id_attribute and ignore_attribute can only be edited for datasets without any tasks.';
+$this->apiErrors[1067] = 'Dataset update failed';
+
+
+//openml.data.edit
+$this->apiErrors[1070] = 'Data ID is required';
+$this->apiErrors[1071] = 'Unknown dataset';
+$this->apiErrors[1072] = 'Failed to insert record in database';
 
 ?>

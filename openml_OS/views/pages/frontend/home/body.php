@@ -32,12 +32,32 @@
         <div class="item active">
           <div class="list-group-item">
               <div class="row-picture">
+                  <img class="circle" src="https://i0.wp.com/syncedreview.com/wp-content/uploads/2020/06/Imagenet.jpg?fit=1400%2C600&ssl=1" alt="icon">
+              </div>
+              <div class="row-content">
+                  <h4 class="list-group-item-heading">Challenge on Metalearning released</h4>
+                  <p class="list-group-item-text"><a href="https://competitions.codalab.org/competitions/26638">Read the details and participate</a>, and <a href="https://sites.google.com/chalearn.org/metalearning/">an associated workshop at AAAI </a> with high-level keynote speakers</p>
+              </div>
+          </div>
+          <div class="list-group-item">
+              <div class="row-picture">
+                  <img class="circle" src="http://icons.iconarchive.com/icons/cornmanthe3rd/plex/512/Other-python-icon.png" alt="icon">
+              </div>
+              <div class="row-content">
+                  <h4 class="list-group-item-heading">Python API 0.10 is released</h4>
+                  <p class="list-group-item-text"><a href="https://openml.github.io/openml-python/master/">Get started now</a> or <a href="https://arxiv.org/pdf/1911.02490.pdf">read the paper first :)</a></p>
+              </div>
+          </div>
+        </div>
+        <div class="item">
+          <div class="list-group-item">
+              <div class="row-picture">
                   <img class="circle" src="img/colordots.png" alt="icon">
               </div>
               <div class="row-content">
                   <h4 class="list-group-item-heading"><div id="colorchange"><span>H</span><span>A</span><span>C</span><span>K</span><span>A</span><span>T</span><span>H</span><span>O</span><span>N</span></div></h4>
                   <p class="list-group-item-text">Bring your own data, bring your own algorithms, or build cool new features.</p>
-                  <p class="list-group-item-text"><a href="https://meet.openml.org" target="_blank">15-18 April 2019, Den Bosch, The Netherlands. Register now!</a></p>
+                  <p class="list-group-item-text"><a href="https://new.openml.org/meet#upcoming" target="_blank">Next workshop: 26-30 October 2020, Virtual</a></p>
               </div>
           </div>
         </div>
@@ -49,18 +69,6 @@
               <div class="row-content">
                   <h4 class="list-group-item-heading">OpenML on Open Science Radio</h4>
                   <p class="list-group-item-text"><a href="http://www.openscienceradio.de/2016/10/28/osr059-openml-en/">Check out the podcast.</a></p>
-              </div>
-          </div>
-        </div>
-        <div class="item">
-          <div class="list-group-item">
-              <div class="row-picture">
-                  <img class="circle" src="img/fanova.png" alt="icon">
-              </div>
-              <div class="row-content">
-                  <h4 class="list-group-item-heading"><a href="https://www.youtube.com/watch?v=mS4vL7_rSWQ" target="_blank">OpenML in practice</a></h4>
-                  <p class="list-group-item-text"><a href="https://www.youtube.com/watch?v=mS4vL7_rSWQ" target="_blank">Hyperparameter Importance Across Datasets on Youtube</a></p>
-                  <p class="list-group-item-text"><a href="https://www.youtube.com/watch?v=mS4vL7_rSWQ" target="_blank">A two minute video demonstrating how OpenML can be used for Automated Machine Learning.</a></p>
               </div>
           </div>
         </div>
